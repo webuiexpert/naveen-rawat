@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/naveen-rawat/static/css/main.cc72ba83.css",
-    "main.js": "/naveen-rawat/static/js/main.b3ab8f1c.js",
+    "main.css": "/naveen-rawat/static/css/main.c227350b.css",
+    "main.js": "/naveen-rawat/static/js/main.65111661.js",
     "static/js/453.1efc090d.chunk.js": "/naveen-rawat/static/js/453.1efc090d.chunk.js",
     "static/media/hero-img.png": "/naveen-rawat/static/media/hero-img.d6b84f6c654e640a7024.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/naveen-rawat/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
@@ -23,12 +23,12 @@
     "static/media/slick.woff": "/naveen-rawat/static/media/slick.295183786cd8a1389865.woff",
     "static/media/css3.svg": "/naveen-rawat/static/media/css3.0b435e818710854aebd35efe9280f77c.svg",
     "index.html": "/naveen-rawat/index.html",
-    "main.cc72ba83.css.map": "/naveen-rawat/static/css/main.cc72ba83.css.map",
-    "main.b3ab8f1c.js.map": "/naveen-rawat/static/js/main.b3ab8f1c.js.map",
+    "main.c227350b.css.map": "/naveen-rawat/static/css/main.c227350b.css.map",
+    "main.65111661.js.map": "/naveen-rawat/static/js/main.65111661.js.map",
     "453.1efc090d.chunk.js.map": "/naveen-rawat/static/js/453.1efc090d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc72ba83.css",
-    "static/js/main.b3ab8f1c.js"
+    "static/css/main.c227350b.css",
+    "static/js/main.65111661.js"
   ]
 }
