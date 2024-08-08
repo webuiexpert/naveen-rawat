@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/naveen-rawat/static/css/main.cc72ba83.css",
+    "main.js": "/naveen-rawat/static/js/main.b3ab8f1c.js",
+    "static/js/453.1efc090d.chunk.js": "/naveen-rawat/static/js/453.1efc090d.chunk.js",
+    "static/media/hero-img.png": "/naveen-rawat/static/media/hero-img.d6b84f6c654e640a7024.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/naveen-rawat/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/wordpress-project4.png": "/naveen-rawat/static/media/wordpress-project4.b7fe11bd8b62990b8e79.png",
+    "static/media/wordpress-project1.png": "/naveen-rawat/static/media/wordpress-project1.9db0531ab0e1bdb51419.png",
+    "static/media/wordpress-project3.png": "/naveen-rawat/static/media/wordpress-project3.8a50263c94072e3c579d.png",
+    "static/media/wordpress-project6.png": "/naveen-rawat/static/media/wordpress-project6.eece754532d3913b27c3.png",
+    "static/media/wordpress-project2.png": "/naveen-rawat/static/media/wordpress-project2.6514836f24d5ce919406.png",
+    "static/media/whatsapp.png": "/naveen-rawat/static/media/whatsapp.c339ff504121f060e736.png",
+    "static/media/wordpress-project5.png": "/naveen-rawat/static/media/wordpress-project5.a56209c34303fee76460.png",
+    "static/media/testimonial-img.png": "/naveen-rawat/static/media/testimonial-img.8e428fea69271dc7d8f7.png",
+    "static/media/clickfunnel.svg": "/naveen-rawat/static/media/clickfunnel.a4f258c2104543ff4e4b0de21c1b3272.svg",
+    "static/media/webflow.svg": "/naveen-rawat/static/media/webflow.ef86b02574300682d77c368cd95c125e.svg",
+    "static/media/slick.svg": "/naveen-rawat/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/naveen-rawat/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/wordpress.svg": "/naveen-rawat/static/media/wordpress.8394b2c5c1493dc866c107b5d18223be.svg",
+    "static/media/slick.ttf": "/naveen-rawat/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/html.svg": "/naveen-rawat/static/media/html.971e51be42aafa7db8fbf4510b204db8.svg",
+    "static/media/slick.woff": "/naveen-rawat/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/css3.svg": "/naveen-rawat/static/media/css3.0b435e818710854aebd35efe9280f77c.svg",
+    "index.html": "/naveen-rawat/index.html",
+    "main.cc72ba83.css.map": "/naveen-rawat/static/css/main.cc72ba83.css.map",
+    "main.b3ab8f1c.js.map": "/naveen-rawat/static/js/main.b3ab8f1c.js.map",
+    "453.1efc090d.chunk.js.map": "/naveen-rawat/static/js/453.1efc090d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc72ba83.css",
+    "static/js/main.b3ab8f1c.js"
+  ]
+}
