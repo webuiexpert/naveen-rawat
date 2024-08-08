@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Monte;
+    src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Monte;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.slick-slide>div {
+    margin: 0 10px;
+ 
+}
+
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 28px !important;
+    line-height: 1;
+    opacity: .75;
+    color: #fff !important;
+    background: #000;
+    border-radius: 50%;
+}
+
+.slick-prev {
+    left: -50px !important;
+}
+
+.slick-next {
+    right: -50px !important;
+}
+
+.testCols .slick-dots {
+    display: none !important;
+}
+
+.visitSite:hover .arrowsvg{
+    rotate: -45deg;
+}
