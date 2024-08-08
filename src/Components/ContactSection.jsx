@@ -23,7 +23,7 @@ function ContactSection() {
   }; 
 
   return (
-  <div id="contact" className="w-full h-auto bg-[#1D225D]">
+  <div id="contact" className="w-full h-auto bg-[#391d5d]">
         <div className="max-w-[1320px] mx-auto lg:py-20 py-10 lg:px-0 md:px-8 sm:px-6 px-4 flex flex-col justify-center items-center">
           <div className="lg:w-[80%] mx-auto">
             <h2 className="lg:text-3xl text-[20px]   leading-[1.4em] font-medium text-white  text-center">Don't Wait Any Longer For Higher Rankings. Get Started today!</h2>

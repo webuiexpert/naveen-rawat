@@ -37,7 +37,7 @@ function Skills() {
               id="shopify"
             />
             <label
-              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-indigo-500 transition-all duration-500 ease-in-out"
+              className="flex justify-center cursor-pointer rounded-full border bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:border-black peer-checked:bg-[#13a300] peer-checked:text-white font-semibold transition-all duration-500 ease-in-out"
               htmlFor="shopify"
             >
               Shopify
@@ -55,7 +55,7 @@ function Skills() {
               id="webflow"
             />
             <label
-              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-indigo-500 transition-all duration-500 ease-in-out"
+              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:text-white font-semibold peer-checked:bg-[#13a300] transition-all duration-500 ease-in-out"
               htmlFor="webflow"
             >
               Webflow
@@ -73,7 +73,7 @@ function Skills() {
               id="Etemplate"
             />
             <label
-              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-indigo-500 transition-all duration-500 ease-in-out"
+              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:text-white font-semibold peer-checked:bg-[#13a300] transition-all duration-500 ease-in-out"
               htmlFor="Etemplate"
             >
               Email Template
@@ -91,7 +91,7 @@ function Skills() {
               id="figma/html"
             />
             <label
-              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-indigo-500 transition-all duration-500 ease-in-out"
+              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:text-white font-semibold peer-checked:bg-[#13a300] transition-all duration-500 ease-in-out"
               htmlFor="figma/html"
             >
               Figma to HTML
@@ -119,7 +119,7 @@ function Skills() {
               id="figma/react"
             />
             <label
-              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-indigo-500 transition-all duration-500 ease-in-out"
+              className="flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:text-white font-semibold peer-checked:bg-[#13a300] transition-all duration-500 ease-in-out"
               htmlFor="figma/react"
             >
               Figma to React/Tailwind CSS
@@ -147,7 +147,7 @@ function Skills() {
               id="marketing"
             />
             <label
-              className="col-span-6 flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:ring-2 peer-checked:ring-indigo-500 transition-all duration-500 ease-in-out "
+              className="col-span-6 flex justify-center cursor-pointer rounded-full border border-gray-300 bg-white py-2 px-4 hover:bg-gray-50 focus:outline-none peer-checked:border-transparent peer-checked:text-white font-semibold peer-checked:bg-[#13a300] transition-all duration-500 ease-in-out "
               htmlFor="marketing"
             >
               Marketing Landing. Pages
