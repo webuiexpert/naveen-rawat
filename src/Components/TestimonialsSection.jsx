@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ClientImg1 from "../assets/testimonial-img.png";
 import Stars from "../assets/stars.png";
+import ClientsReviewsGallery from "./ClientsReviewsGallery";
 
 const data = [
   {
@@ -86,16 +87,22 @@ function TestimonialsSection() {
         <div className="testCols grid grid-cols-1">
         <h2 className="lg:text-5xl text-[42px] leading-[1.2em] text-black text-start font-extrabold ">Testimonials</h2>
         <h3 className="lg:text-5xl leading-7 text-[24px] text-black text-start font-medium ">Trusted by over <span className="font-extrabold italic text-[#023c4e]">1000+</span> business owners</h3>
+        {/* ------------Testimonials video Section------------ */}
         <div className="testiVideos lg:h-[320px]  mt-10">
           <div className="testiVideo flex lg:flex-row flex-col lg:gap-10 gap-5 w-full  ">
             <div className="testiVideoInner   lg:w-1/2 border relative">
             <iframe className="lg:absolute w-full rounded-lg"  height="315" src="https://www.youtube.com/embed/jyMoFgctJGU?si=NziedG-RoWWcB0rX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className="testiVideoInne lg:w-1/2 borderr relative">
-            <iframe className="lg:absolute w-full rounded-lg" height="315" src="https://www.youtube.com/embed/jyMoFgctJGU?si=NziedG-RoWWcB0rX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe className="lg:absolute w-full rounded-lg" height="315" src="https://www.youtube.com/embed/5NgoafrPfvI?si=U8m_vCTuW_nqsro5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
             </div>
           </div>
         </div>
+        {/* ------------Testimonials video Section End ------------ */}
+        {/* ------------Clients Reviews Section------------ */}
+        <ClientsReviewsGallery />
+        {/* ------------Testimonials Slider Section------------ */}
           <Slider {...settings}>
             {data.map((d, index) => (
               <div
@@ -113,6 +120,7 @@ function TestimonialsSection() {
               </div>
             ))}
           </Slider>
+
         </div>
       </div>
     </div>

@@ -1,10 +1,36 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import HeroImg from "../assets/hero-img.png"
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import Calendly from './Calendly'
+
 
 function HeroSection() {
+
+  const MainRef = useRef ()
+
+  
+
+useGSAP ( () => {
+gsap.from(".personalImg", {
+  scale:0.7,
+  opacity:0,
+  duration: 1.5,
+ x:300,
+  delay: 0.1,
+
+})
+gsap.from(MainRef.current, {
+  opacity:0,
+  duration: 1.5,
+ x:-300,
+  delay: 0.5
+},  { scope:MainRef })
+})
+
   return (
-    <div className="herosection w-full lg:h-[calc(92vh-96px)] h-auto py-10 bg-[#4b006d] ">
-    <div className="container h-full flex lg:flex-row md:flex-row items-center  flex-col-reverse lg:gap-0 gap-5 lg:px-0  md:px-8 sm:px-6 px-4">
+    <div className="herosection w-full lg:h-[calc(92vh-96px)] h-auto py-10 bg-[#4b006d] overflow-hidden ">
+    <div ref={MainRef} className="container h-full flex lg:flex-row md:flex-row items-center  flex-col-reverse lg:gap-0 gap-5 lg:px-0  md:px-8 sm:px-6 px-4">
     <div className="textSection text-white lg:text-[52px] text-[28px] font-extrabold lg:leading-[56px] lg:w-[70%] md:w-[60%] w-full flex flex-col items-start justify-center">
       <h2 className="">Hello,</h2>
       <h2 className="">I am Naveen, </h2>
@@ -13,10 +39,10 @@ function HeroSection() {
       <h5 className="lg:my-4 lg:w-[738px] lg:text-[24px] text-[18px] font-extrabold lg:leading-[1.2em]">
       I research, code, blog, and make Designs live.
       </h5>
-      <div className="btnBox lg:mt-0 mt-5 gap-10 lg:flex justify-between">
-        <div className="letGoBtn w-fit relative">
-          <a href="https://api.whatsapp.com/send/?phone=919115144232&text&type=phone_number&app_absent=0">
-          <button className="text-[18px] leading-8 px-8 py-2 border bg-[#13a300]">
+      <div className="btnBox lg:mt-0  lg:w-[65%]  mt-5 gap-10 lg:flex justify-between items-end">
+        <div className="letGoBtn lg:w-[40%] relative">
+          <a href="https://api.whatsapp.com/send/?phone=9041421329&text&type=phone_number&app_absent=0">
+          <button className="text-[18px] w-full leading-8  px-2 py-2 border bg-[#13a300]">
             Lets Connect
           </button></a>
           <svg
@@ -62,9 +88,11 @@ function HeroSection() {
             </defs>
           </svg>
         </div>
-        <div className="lg:mt-0 mt-4 appontBtn">
-         <button className="text-[18px] leading-8 px-8 py-2 border">or Book Free Consultant</button>
-        </div>
+         <div className="lg:w-[60%] lg:mt-0 mt-5 text-[20px] text-center leading-8 border px-2 py-2 ">
+         
+         <Calendly />
+         </div>
+      
       </div>
     </ div>
     <div className="personalImg lg:w-[30%] md:w-[40%] w-full">

@@ -7,7 +7,7 @@ function WhatsAppbtn() {
   return (
  
     
-            <a href="https://api.whatsapp.com/send/?phone=919115144232&text&type=phone_number&app_absent=0"><img src={whatsapp} alt="" width={50} /></a> 
+            <a href="https://api.whatsapp.com/send/?phone=9041421329&text&type=phone_number&app_absent=0"><img src={whatsapp} alt="" width={50} /></a> 
   
   )
 }

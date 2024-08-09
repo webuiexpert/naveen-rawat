@@ -8,7 +8,7 @@ import wprojectImg6 from "../assets/wordpress-project6.png"
 import { CiLocationArrow1 } from "react-icons/ci";
 
 
-function Projects1() {
+function WordpressProjects() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container">
@@ -18,7 +18,7 @@ function Projects1() {
               <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
                 src={wprojectImg1} />
               <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium text-lg text-gray-900">
+                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
                 Figma,HTML, CSS, JS, WordPress Elementor.
                 </h2>
                 <a className="visitSite flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black transition-all duration-500 ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
@@ -30,7 +30,7 @@ function Projects1() {
               <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
                 src={wprojectImg2} />
               <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium text-lg text-gray-900">
+                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
                 Figma,HTML, CSS, JS, WordPress Elementor.
                 </h2>
                 <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
@@ -42,7 +42,7 @@ function Projects1() {
               <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
                 src={wprojectImg3} />
               <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium text-lg text-gray-900">
+                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
                 Figma,HTML, CSS, JS, WordPress Elementor.
                 </h2>
                 <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
@@ -54,7 +54,7 @@ function Projects1() {
               <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
                 src={wprojectImg4} />
               <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium text-lg text-gray-900">
+                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
                 Figma,HTML, CSS, JS, WordPress Elementor.
                 </h2>
                 <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
@@ -66,7 +66,7 @@ function Projects1() {
               <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
                 src={wprojectImg5} />
               <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium text-lg text-gray-900">
+                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
                 Figma,HTML, CSS, JS, WordPress Elementor.
                 </h2>
                 <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
@@ -78,7 +78,7 @@ function Projects1() {
               <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
                 src={wprojectImg6} />
               <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium text-lg text-gray-900">
+                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
                 Figma,HTML, CSS, JS, WordPress Elementor.
                 </h2>
                 <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
@@ -93,4 +93,4 @@ function Projects1() {
   );
 }
 
-export default Projects1;
+export default WordpressProjects;
