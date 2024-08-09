@@ -15,7 +15,7 @@ function App() {
       <HeroSection />
       <About />
       <ConsultationBanner />
-     <div className='min-h-[200vh] relative'>  <Skills /></div>
+      <Skills />    
       <TestimonialsSection /> 
       <ConsultationBanner />
       <ContactSection />

@@ -24,11 +24,8 @@ html, body{
     max-width: 1280px;
     margin: 0 auto;
 }
-
-
 .slick-slide>div {
     margin: 0 10px;
- 
 }
 
 
@@ -57,3 +54,45 @@ html, body{
 .visitSite:hover .arrowsvg{
     rotate: -45deg;
 }
+
+
+/* --Tabs --- */
+
+.react-tabs__tab--selected {
+    background: #13A300 !important;
+    border-color: #000 !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+}
+
+/* goTop Animation */
+
+@keyframes gotop{
+
+    0% {
+        transform: translateY(-0.2rem);
+    }
+    100% {
+        transform: translateY(0.2rem);
+    }
+    
+    }
+    
+    @media (320px <= width <=800px) {
+    
+        .slick-prev:before,
+        .slick-next:before {
+            display: none;
+        }
+    
+       .testCols .slick-dots {
+            display: block !important;
+        }
+        .CaseStudieSlider-container .slick-dots {
+            display: block !important;
+    
+        }
+        .slick-slide>div {
+            margin: 0;
+        }
+    }

@@ -86,11 +86,21 @@ function TestimonialsSection() {
         <div className="testCols grid grid-cols-1">
         <h2 className="lg:text-5xl text-[42px] leading-[1.2em] text-black text-start font-extrabold ">Testimonials</h2>
         <h3 className="lg:text-5xl leading-7 text-[24px] text-black text-start font-medium ">Trusted by over <span className="font-extrabold italic text-[#023c4e]">1000+</span> business owners</h3>
+        <div className="testiVideos lg:h-[320px]  mt-10">
+          <div className="testiVideo flex lg:flex-row flex-col lg:gap-10 gap-5 w-full  ">
+            <div className="testiVideoInner   lg:w-1/2 border relative">
+            <iframe className="lg:absolute w-full rounded-lg"  height="315" src="https://www.youtube.com/embed/jyMoFgctJGU?si=NziedG-RoWWcB0rX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div className="testiVideoInne lg:w-1/2 borderr relative">
+            <iframe className="lg:absolute w-full rounded-lg" height="315" src="https://www.youtube.com/embed/jyMoFgctJGU?si=NziedG-RoWWcB0rX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
           <Slider {...settings}>
             {data.map((d, index) => (
               <div
                 key={index}
-                className="shadow-sm border drop-shadow-2xl lg:p-6 p-4 rounded-lg min-h-[420px] lg:mt-10 mt-5"
+                className="shadow-sm border drop-shadow-2xl lg:p-6 p-4 rounded-lg lg:min-h-[420px] lg:mt-10 mt-5"
               >   
                 <img src={d.Starsimg} alt="Stars-Img" />
                 <p className="text-gray-600 lg:text-[18px] text-[16px] my-8">{d.reviews}</p>
