@@ -51,7 +51,7 @@ function TestimonialsSection() {
     dots: true,
     infinite: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {
@@ -89,9 +89,13 @@ function TestimonialsSection() {
         <h3 className="lg:text-5xl leading-7 text-[24px] text-black text-start font-medium ">Trusted by over <span className="font-extrabold italic text-[#023c4e]">1000+</span> business owners</h3>
         {/* ------------Testimonials video Section------------ */}
         <div className="testiVideos lg:h-[320px]  mt-10">
-          <div className="testiVideo flex lg:flex-row flex-col lg:gap-10 gap-5 w-full  ">
+          <div className="testiVideo flex lg:flex-row flex-col lg:gap-2 gap-5 w-full  ">
             <div className="testiVideoInner   lg:w-1/2 border relative">
             <iframe className="lg:absolute w-full rounded-lg"  height="315" src="https://www.youtube.com/embed/jyMoFgctJGU?si=NziedG-RoWWcB0rX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div className="testiVideoInne lg:w-1/2 borderr relative">
+            <iframe className="lg:absolute w-full rounded-lg" height="315" src="https://www.youtube.com/embed/zG11jx9jKY0?si=RDsv_H9d2a4DkG3t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
             </div>
             <div className="testiVideoInne lg:w-1/2 borderr relative">
             <iframe className="lg:absolute w-full rounded-lg" height="315" src="https://www.youtube.com/embed/5NgoafrPfvI?si=U8m_vCTuW_nqsro5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -103,7 +107,7 @@ function TestimonialsSection() {
         {/* ------------Clients Reviews Section------------ */}
         <ClientsReviewsGallery />
         {/* ------------Testimonials Slider Section------------ */}
-          <Slider {...settings}>
+          {/* <Slider {...settings}>
             {data.map((d, index) => (
               <div
                 key={index}
@@ -119,7 +123,7 @@ function TestimonialsSection() {
                 </div>
               </div>
             ))}
-          </Slider>
+          </Slider> */}
 
         </div>
       </div>
