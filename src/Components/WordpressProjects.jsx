@@ -7,84 +7,57 @@ import wprojectImg5 from "../assets/wordpress-project5.png"
 import wprojectImg6 from "../assets/wordpress-project6.png"
 import { CiLocationArrow1 } from "react-icons/ci";
 
+const wordpressData = [
+  {
+   "projectImage": wprojectImg1,
+   "tools": "Figma,HTML, CSS, JS, WordPress Elementor",
+   "link": "#"
+  },
+  {
+   "projectImage": wprojectImg2,
+   "tools": "Figma,HTML, CSS, JS, WordPress Elementor",
+   "link": "#"
+  },
+  {
+   "projectImage": wprojectImg3,
+   "tools": "Figma,HTML, CSS, JS, WordPress Elementor",
+   "link": "#"
+  },
+  {
+   "projectImage": wprojectImg4,
+   "tools": "Figma,HTML, CSS, JS, WordPress Elementor",
+   "link": "#"
+  },
+  {
+   "projectImage": wprojectImg5,
+   "tools": "Figma,HTML, CSS, JS, WordPress Elementor",
+   "link": "#"
+  },
+  {
+   "projectImage": wprojectImg6,
+   "tools": "Figma,HTML, CSS, JS, WordPress Elementor",
+   "link": "#"
+  },
+ 
+ ]
+ 
+
 
 function WordpressProjects() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container">
-        <div className="grid lg:grid-cols-3 grid-cols-2 gap-7">
-          <div className="w-full rounded-lg ">
-            <div className="h-full rounded-lg flex flex-col items-center text-center">
-              <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
-                src={wprojectImg1} />
-              <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
-                Figma,HTML, CSS, JS, WordPress Elementor.
-                </h2>
-                <a className="visitSite flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black transition-all duration-500 ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
+        <div className="grid lg:grid-cols-3 grid-cols-2 gap-8">
+          
+          {
+            wordpressData.map((pItem, index) => (
+              <div key={index} className="flex flex-col items-start bg-white rounded">
+              <img className="border p-1  rounded-lg  flex-shrink w-full h-68 object-cover  object-center mb-4" src={pItem.projectImage} alt="" />
+              <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">{pItem.tools}</h2>
+              <a className="visitSite flex underline hover:no-underline items-center gap-3" href={pItem.link}><p className="font-bold text-black transition-all duration-500">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
               </div>
-            </div>
-          </div>
-          <div className="w-full rounded-lg ">
-            <div className="h-full rounded-lg flex flex-col items-center text-center">
-              <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
-                src={wprojectImg2} />
-              <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
-                Figma,HTML, CSS, JS, WordPress Elementor.
-                </h2>
-                <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
-              </div>
-            </div>
-          </div>
-          <div className="w-full rounded-lg ">
-            <div className="h-full rounded-lg flex flex-col items-center text-center">
-              <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
-                src={wprojectImg3} />
-              <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
-                Figma,HTML, CSS, JS, WordPress Elementor.
-                </h2>
-                <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
-              </div>
-            </div>
-          </div>
-          <div className="w-full rounded-lg ">
-            <div className="h-full rounded-lg flex flex-col items-center text-center">
-              <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
-                src={wprojectImg4} />
-              <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
-                Figma,HTML, CSS, JS, WordPress Elementor.
-                </h2>
-                <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
-              </div>
-            </div>
-          </div>
-          <div className="w-full rounded-lg ">
-            <div className="h-full rounded-lg flex flex-col items-center text-center">
-              <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
-                src={wprojectImg5} />
-              <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
-                Figma,HTML, CSS, JS, WordPress Elementor.
-                </h2>
-                <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
-              </div>
-            </div>
-          </div>
-          <div className="w-full rounded-lg ">
-            <div className="h-full rounded-lg flex flex-col items-center text-center">
-              <img className="flex-shrink w-full h-68 object-cover  object-center mb-4"
-                src={wprojectImg6} />
-              <div className="w-full flex flex-col items-start">
-                <h2 className="title-font text-left font-medium lg:text-lg text-sm text-gray-900">
-                Figma,HTML, CSS, JS, WordPress Elementor.
-                </h2>
-                <a className="visitSite transition-all duration-500 flex underline hover:no-underline items-center gap-3" href="#"><p className="font-bold text-black  ">visit website</p> <CiLocationArrow1 className="arrowsvg rotate-[45deg]" /> </a>
-              </div>
-            </div>
-          </div>
+            ))
+          }
           
         
         </div>

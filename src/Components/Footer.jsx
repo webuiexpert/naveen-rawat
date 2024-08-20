@@ -18,8 +18,8 @@ function Footer() {
       <div className="whatsaapDiv fixed right-16 bottom-3">
       <WhatsAppbtn />
       </div>
-      <div className="whatsaapDiv fixed right-2 bottom-4">
-      <GotoTopBtn />
+      <div className="gotop fixed right-2 bottom-4">
+      <GotoTopBtn  />
       </div>
       
     </div>

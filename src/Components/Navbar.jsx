@@ -38,9 +38,7 @@ function Navbar() {
 
  
   return (
-    <div
-    
-      className=" navbar bg-[#4b006d] w-full sticky left-0 top-0 z-50 pt-3 pb-1"
+    <div  className="shadow-md navbar bg-[#4b006d] w-full sticky left-0 top-0 z-50 pt-3 pb-1"
     >
       <div className="container flex justify-between h-24  lg:gap-0 gap-16  items-center px-4 sm:px-6 md:px-8 lg:px-0">
         <div className="logo lg:w-[25%]  w-[40%]">

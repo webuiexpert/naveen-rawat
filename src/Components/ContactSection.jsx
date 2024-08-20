@@ -31,15 +31,15 @@ function ContactSection() {
             </p>
             <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-10 mt-10 items-center justify-between w-full bg-transparent" action="">
                 <div className="inputBox1 flex lg:flex-row flex-col justify-between gap-10 w-full">
-                  <input className="placeholder:text-slate-400 bg-transparent p-3 lg:w-[50%] border-b-[1px] outline-none	" type="text" placeholder='Your Name' name="user_name" />
-                  <input className="bg-transparent p-3 lg:w-[50%] border-b-[1px] outline-none" type="email"  placeholder="Your Email" name="user_email" />
+                  <input className="placeholder:text-white text-white bg-transparent p-3 lg:w-[50%] border-b-[1px] outline-none	" type="text" placeholder='Your Name' name="user_name" />
+                  <input className="bg-transparent  text-white p-3 lg:w-[50%] border-b-[1px] outline-none" type="email"  placeholder="Your Email" name="user_email" />
                 </div>
                 <div className="inputBox2 lg:mt-10 mt-5 flex lg:flex-row flex-col justify-between gap-10 w-full">
-                  <input className="bg-transparent py-7 px-3 lg:w-[50%] border-b-[1px] h-[16px] outline-none" type="text" name='user_subject' placeholder='Subject' />
-                  <textarea className="bg-transparent p-3 lg:w-[50%] border-b-[1px] h-[150px] outline-none	"  placeholder='Your Message' name="message"></textarea>
+                  <input className="bg-transparent  text-white py-7 px-3 lg:w-[50%] border-b-[1px] h-[16px] outline-none" type="text" name='user_subject' placeholder='Subject' />
+                  <textarea className="bg-transparent p-3 lg:w-[50%]  text-white border-b-[1px] h-[150px] outline-none	"  placeholder='Your Message' name="message"></textarea>
                 </div>
                 <div className="subBtn relative mt-10">
-                <input type="submit" value="Send Message" className="mssgBtn  bg-[#13a300] hover:bg-transparent cursor-pointer py-3 px-8 text-white text-[20px]" /></div>
+                <input type="submit" value="Send Message" className="mssgBtn  text-white bg-[#13a300] hover:bg-transparent cursor-pointer py-3 px-8 text-[20px]" /></div>
             </form>
             </div>
         </div>

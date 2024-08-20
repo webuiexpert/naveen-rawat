@@ -2,6 +2,12 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import WordpressProjects from "./WordpressProjects";
+import ShopifyProjects from "./ShopifyProjects"
+import WebflowProjects from "./WebflowProjects";
+import EmailtemplateProjects from "./EmailtemplateProjects";
+import HtmlProjects from "./HtmlProjects";
+import FigmaToReact from "./FigmaToReact";
+import MarketingLandingPages from "./MarketingLandingPages";
 
 function Skills() {
   return (
@@ -31,22 +37,22 @@ function Skills() {
            <WordpressProjects />
           </TabPanel>
           <TabPanel>
-           <WordpressProjects />
+           <ShopifyProjects />
           </TabPanel>
           <TabPanel>
-           <WordpressProjects />
+           <WebflowProjects />
           </TabPanel>
           <TabPanel>
-           <WordpressProjects />
+           <EmailtemplateProjects />
           </TabPanel>
           <TabPanel>
-           <WordpressProjects />
+           <HtmlProjects />
           </TabPanel>
           <TabPanel>
-           <WordpressProjects />
+           <FigmaToReact />
           </TabPanel>
           <TabPanel>
-           <WordpressProjects />
+           <MarketingLandingPages />
           </TabPanel>
           </div>
         </Tabs>

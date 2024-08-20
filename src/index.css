@@ -19,6 +19,18 @@ html, body{
     font-family: Monte;
     scroll-behavior: smooth;
 }
+.cursor {
+    width: 20px;
+    height: 20px;
+    background-color: #4B006D;
+    border:2px solid #fff;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999;
+  }
 
 .container{
     max-width: 1280px;
@@ -65,15 +77,23 @@ html, body{
     border-radius: 50px !important;
 }
 
+
+.gotop svg{
+    animation: gotop 2s infinite ease-in-out ;
+}
+
+
 /* goTop Animation */
 
 @keyframes gotop{
 
     0% {
         transform: translateY(-0.2rem);
+        opacity: 0.7;
     }
     100% {
         transform: translateY(0.2rem);
+        opacity: 1;
     }
     
     }
