@@ -16,7 +16,7 @@ gsap.from(".personalImg", {
   scale:0.7,
   opacity:0,
   duration: 1.5,
- x:300,
+  x:300,
   delay: 0.1,
 
 })
@@ -51,7 +51,6 @@ gsap.from(MainRef.current, {
             height="30px"
             viewBox="0 0 32 32"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
               fill-rule="evenodd"
@@ -94,8 +93,8 @@ gsap.from(MainRef.current, {
       
       </div>
     </ div>
-    <div className="personalImg lg:w-[30%] md:w-[40%] w-full">
-     <img src={HeroImg} alt="" />
+    <div className="personalImg  lg:w-[30%] md:w-[40%] w-full">
+     <img className='hover:scale-[1.1] duration-700' src={HeroImg} alt="" />
     </ div>
     </div>
 

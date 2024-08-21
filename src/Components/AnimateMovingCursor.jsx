@@ -15,6 +15,7 @@ const testiSection = document.querySelector('.testiVideo');
             ease: 'power2.out',
           });
     });
+
     testiSection.addEventListener('mouseenter', (e) => {
         gsap.to(cursorRef.current, {
             x: e.clientX,
