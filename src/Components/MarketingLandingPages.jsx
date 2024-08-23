@@ -7,6 +7,8 @@ import funnelProject5 from "../assets/FunnelPages/FunnelProject5.png"
 import funnelProject6 from "../assets/FunnelPages/FunnelProject6.png"
 import funnelProject7 from "../assets/FunnelPages/FunnelProject7.png"
 import funnelProject8 from "../assets/FunnelPages/FunnelProject8.png"
+import funnelProject9 from "../assets/FunnelPages/FunnelProject9.png"
+import funnelProject10 from "../assets/FunnelPages/FunnelProject10.png"
 import { CiLocationArrow1 } from "react-icons/ci";
 
 
@@ -28,7 +30,7 @@ const reactData = [
        },
        {
         "projectImage": funnelProject4,
-        "tools": "Figma, HTML, CSS, Clickfunnel",
+        "tools": "Figma, HTML, CSS, GHL",
         "link": "https://app.sanesocialmedia.com/v2/preview/VHshYgyjKJDPrZSotMZm?notrack=true"
        },
        {
@@ -50,6 +52,16 @@ const reactData = [
         "projectImage": funnelProject8,
         "tools": "Figma, HTML, CSS, Clickfunnel",
         "link": "https://workshop.theadgirls.com/academy"
+       },
+       {
+        "projectImage": funnelProject9,
+        "tools": "Figma, HTML, CSS, GHL",
+        "link": "https://book.empoweru.com.au/advanced_camp_lp"
+       },
+       {
+        "projectImage": funnelProject10,
+        "tools": "Figma, HTML, CSS, GHL",
+        "link": "https://book.empoweru.com.au/revisit-empower-u-page"
        },
 
     ]

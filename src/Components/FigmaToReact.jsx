@@ -9,22 +9,22 @@ import { CiLocationArrow1 } from "react-icons/ci";
 const reactData = [
     {
         "projectImage": ReactProject1,
-        "tools": "Figma, HTML, CSS.",
+        "tools": "Figma, HTML, Tailwind CSS, React.",
         "link": "https://webuiexpert.github.io/digital-marketing-systems/"
        },
        {
         "projectImage": ReactProject2,
-        "tools": "Figma, HTML, CSS.",
+        "tools": "Figma, HTML, Tailwind CSS, React.",
         "link": "https://www.solutionfounder.com/"
        },
        {
         "projectImage": ReactProject3,
-        "tools": "Figma, HTML, CSS.",
+        "tools": "Figma, HTML, Tailwind CSS, React.",
         "link": "https://www.cablemovers.net/"
        },
        {
         "projectImage": ReactProject4,
-        "tools": "Figma, HTML, CSS.",
+        "tools": "Figma, HTML, Tailwind CSS, React.",
         "link": "https://www.quantro.net/#investment"
        },
     ]
