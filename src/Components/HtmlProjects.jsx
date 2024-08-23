@@ -11,27 +11,27 @@ const htmlData = [
     {   
         "projectImage": htmlProject1,
         "tools": "Figma, HTML, CSS.",
-        "link": "https://webuiexpert.com/emailshowcase/emailmarketingtemp1.html"
+        "link": "https://webuiexpert.github.io/digital-marketing-systems/"
        },
        {
         "projectImage": htmlProject2,
         "tools": "Figma, HTML, CSS.",
-        "link": "https://webuiexpert.com/emailshowcase/emailmarketingtemp7/email.html"
+        "link": "https://webuiexpert.com/13cure/"
        },
        {
         "projectImage": htmlProject3,
         "tools": "Figma, HTML, CSS.",
-        "link": "https://webuiexpert.com/emailshowcase/emailmarketingtemp4.html"
+        "link": "https://fulfillnext.com/"
        },
        {
         "projectImage": htmlProject4,
         "tools": "Figma, HTML, CSS.",
-        "link": "https://webuiexpert.com/emailshowcase/emailmarketingtemp5.html"
+        "link": "https://www.ibizaexecutivetravel.com"
        },
        {
         "projectImage": htmlProject5,
         "tools": "Figma, HTML, CSS.",
-        "link": "https://webuiexpert.com/emailshowcase/emailmarketingtemp8/email.html"
+        "link": "https://mhpreschool.com/"
        },
     ]
 
