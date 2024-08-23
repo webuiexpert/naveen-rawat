@@ -29,7 +29,7 @@ const reactData = [
        {
         "projectImage": funnelProject4,
         "tools": "Figma, HTML, CSS, Clickfunnel",
-        "link": "http://sprinklesfor.kartra.com/"
+        "link": "https://app.sanesocialmedia.com/v2/preview/VHshYgyjKJDPrZSotMZm?notrack=true"
        },
        {
         "projectImage": funnelProject5,
