@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/naveen-rawat/static/css/main.840a5311.css",
-    "main.js": "/naveen-rawat/static/js/main.40086d39.js",
+    "main.js": "/naveen-rawat/static/js/main.2392463b.js",
     "static/js/453.1135a453.chunk.js": "/naveen-rawat/static/js/453.1135a453.chunk.js",
     "static/media/hero-img.png": "/naveen-rawat/static/media/hero-img.d6b84f6c654e640a7024.png",
     "static/media/CssHouse-projects37.png": "/naveen-rawat/static/media/CssHouse-projects37.7e53ac4f10789702bf35.png",
@@ -19,6 +19,7 @@
     "static/media/HtmlProject1.png": "/naveen-rawat/static/media/HtmlProject1.1887316ed57e9372d062.png",
     "static/media/emailTemplateproj5.png": "/naveen-rawat/static/media/emailTemplateproj5.af37832371ad7047ec30.png",
     "static/media/FunnelProject2.png": "/naveen-rawat/static/media/FunnelProject2.0acf2fc4735ec08c8a90.png",
+    "static/media/FunnelProject10.png": "/naveen-rawat/static/media/FunnelProject10.a1dceee170d5bb1b476e.png",
     "static/media/wordpress-project4.png": "/naveen-rawat/static/media/wordpress-project4.ef6bf9de3201791cdfd5.png",
     "static/media/reactProject1.png": "/naveen-rawat/static/media/reactProject1.b47b412a680dabb620ea.png",
     "static/media/FunnelProject7.png": "/naveen-rawat/static/media/FunnelProject7.bf0f5b301cda0de23504.png",
@@ -47,6 +48,7 @@
     "static/media/t4.jpg": "/naveen-rawat/static/media/t4.588ba88a30e9b34a224f.jpg",
     "static/media/CssHouse-projects35.png": "/naveen-rawat/static/media/CssHouse-projects35.783ba37a208962f599b6.png",
     "static/media/CssHouse-projects38.png": "/naveen-rawat/static/media/CssHouse-projects38.75072c2375b072dd8190.png",
+    "static/media/FunnelProject9.png": "/naveen-rawat/static/media/FunnelProject9.f353bd7e2fe2785dd5a2.png",
     "static/media/t9.jpg": "/naveen-rawat/static/media/t9.5e4f250ebf506df9b467.jpg",
     "static/media/FunnelProject6.png": "/naveen-rawat/static/media/FunnelProject6.f28a7b6476e8fcdfac38.png",
     "static/media/t20.jpg": "/naveen-rawat/static/media/t20.18c2c96473cc6b0bc815.jpg",
@@ -72,11 +74,11 @@
     "index.html": "/naveen-rawat/index.html",
     "static/media/check-circle-svgrepo-com.svg": "/naveen-rawat/static/media/check-circle-svgrepo-com.bea96d1448364f00cf35950c4f55e5f4.svg",
     "main.840a5311.css.map": "/naveen-rawat/static/css/main.840a5311.css.map",
-    "main.40086d39.js.map": "/naveen-rawat/static/js/main.40086d39.js.map",
+    "main.2392463b.js.map": "/naveen-rawat/static/js/main.2392463b.js.map",
     "453.1135a453.chunk.js.map": "/naveen-rawat/static/js/453.1135a453.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.840a5311.css",
-    "static/js/main.40086d39.js"
+    "static/js/main.2392463b.js"
   ]
 }
