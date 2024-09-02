@@ -51,7 +51,7 @@ function ContactSection() {
               <textarea className="bg-transparent p-3 lg:w-[50%] text-white border-b-[1px] h-[150px] outline-none" placeholder="Your Message" name="message"></textarea>
             </div>
             <div className="subBtn relative mt-10">
-              <input type="submit" value="Send Message" className="mssgBtn text-white bg-[#13a300] hover:bg-transparent hover:border cursor-pointer py-3 px-8 text-[20px]" />
+              <input type="submit" value="Send Message" className="rounded-full mssgBtn text-white bg-[#13a300] hover:bg-transparent hover:border cursor-pointer py-3 px-8 text-[20px]" />
             </div>
             {message && (
               <p className="w-full text-center p-2 text-2xl font-semibold text-[#ffff]">
