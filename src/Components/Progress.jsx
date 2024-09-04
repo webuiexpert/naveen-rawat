@@ -92,6 +92,7 @@ function Progress() {
           </div>
         </div>
       </div>
+      
       <div className="flex items-center">
         <div className="w-8 h-8 shrink-0 mr-4 rounded-full bg-blue-50 flex items-center justify-center">
           <img src={checkIcon} alt="" />
@@ -99,12 +100,27 @@ function Progress() {
         <div className="space-y-3 flex-1">
           <div className="flex items-center">
             <h4 className="font-bold  text-[18px] mr-auto text-black flex items-center">
-            Php, Payment Gateways, API integration </h4>
+            PHP, Laravel, Codeigniter, MySQL, MongoDB</h4>
           </div>
           <div className="overflow-hidden bg-blue-50 h-2 rounded-full w-full">
             <span className="h-full bg-custom-pattern w-full block rounded-full" style={{width: '85%'}} />
           </div>
         </div>
+      </div>
+      <div className="flex items-center">
+        <div className="w-8 h-8 shrink-0 mr-4 rounded-full bg-blue-50 flex items-center justify-center">
+          <img src={checkIcon} alt="" />
+        </div>
+        <div className="space-y-3 flex-1">
+          <div className="flex items-center">
+            <h4 className="font-bold  text-[18px] mr-auto text-black flex items-center">
+            Payment Gateways, API integration </h4>
+          </div>
+          <div className="overflow-hidden bg-blue-50 h-2 rounded-full w-full">
+            <span className="h-full bg-custom-pattern w-full block rounded-full" style={{width: '85%'}} />
+          </div>
+        </div>
+        
       </div>
      
       

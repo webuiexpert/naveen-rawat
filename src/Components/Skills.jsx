@@ -8,6 +8,7 @@ import EmailtemplateProjects from "./EmailtemplateProjects";
 import HtmlProjects from "./HtmlProjects";
 import FigmaToReact from "./FigmaToReact";
 import MarketingLandingPages from "./MarketingLandingPages";
+import BackendProjects from "./BackendProjects";
 
 function Skills() {
   return (
@@ -24,12 +25,14 @@ function Skills() {
           <TabList  className={ "flex flex-wrap justify-center items-center gap-4"}>
             
             <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Wordpress</Tab>
+            <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Marketing Landing Pages</Tab>
             <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Shopify</Tab>
+            <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Backend Work</Tab>
             <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Webflow</Tab>
             <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Email Template</Tab>
             <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Figma to HTML</Tab>
             <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Figma to React/Tailwind</Tab>
-            <Tab  className={ "text-black lg:px-8 px-4 py-2 font-bold text-center rounded-full border lg:text-[20px] text-[14px] hover:bg-[#391d5d] hover:text-white cursor-pointer"}>Marketing Landing Pages</Tab>
+            
             
           </TabList>
 <div className="py-5 mt-5">
@@ -38,6 +41,9 @@ function Skills() {
           </TabPanel>
           <TabPanel>
            <ShopifyProjects />
+          </TabPanel>
+          <TabPanel>
+           <BackendProjects />
           </TabPanel>
           <TabPanel>
            <WebflowProjects />
