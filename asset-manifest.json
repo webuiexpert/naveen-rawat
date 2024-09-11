@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/naveen-rawat/static/css/main.893b35aa.css",
-    "main.js": "/naveen-rawat/static/js/main.7c0aacc5.js",
+    "main.js": "/naveen-rawat/static/js/main.d5206818.js",
     "static/js/453.1135a453.chunk.js": "/naveen-rawat/static/js/453.1135a453.chunk.js",
     "static/media/hero-img.png": "/naveen-rawat/static/media/hero-img.d6b84f6c654e640a7024.png",
     "static/media/CssHouse-projects37.png": "/naveen-rawat/static/media/CssHouse-projects37.7e53ac4f10789702bf35.png",
@@ -84,11 +84,11 @@
     "index.html": "/naveen-rawat/index.html",
     "static/media/check-circle-svgrepo-com.svg": "/naveen-rawat/static/media/check-circle-svgrepo-com.bea96d1448364f00cf35950c4f55e5f4.svg",
     "main.893b35aa.css.map": "/naveen-rawat/static/css/main.893b35aa.css.map",
-    "main.7c0aacc5.js.map": "/naveen-rawat/static/js/main.7c0aacc5.js.map",
+    "main.d5206818.js.map": "/naveen-rawat/static/js/main.d5206818.js.map",
     "453.1135a453.chunk.js.map": "/naveen-rawat/static/js/453.1135a453.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.893b35aa.css",
-    "static/js/main.7c0aacc5.js"
+    "static/js/main.d5206818.js"
   ]
 }
