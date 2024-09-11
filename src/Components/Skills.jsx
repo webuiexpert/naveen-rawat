@@ -40,6 +40,9 @@ function Skills() {
            <WordpressProjects />
           </TabPanel>
           <TabPanel>
+           <MarketingLandingPages />
+          </TabPanel>
+          <TabPanel>
            <ShopifyProjects />
           </TabPanel>
           <TabPanel>
@@ -57,9 +60,7 @@ function Skills() {
           <TabPanel>
            <FigmaToReact />
           </TabPanel>
-          <TabPanel>
-           <MarketingLandingPages />
-          </TabPanel>
+       
           </div>
         </Tabs>
       </div>
