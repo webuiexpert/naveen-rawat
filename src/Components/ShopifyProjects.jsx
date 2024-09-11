@@ -4,41 +4,34 @@ import sprojectImg2 from "../assets/shopifyProjectsa/CssHouse-projects35.png"
 import sprojectImg3 from "../assets/shopifyProjectsa/CssHouse-projects36.png"
 import sprojectImg4 from "../assets/shopifyProjectsa/CssHouse-projects37.png"
 import sprojectImg5 from "../assets/shopifyProjectsa/CssHouse-projects38.png"
-import sprojectImg6 from "../assets/shopifyProjectsa/CssHouse-projects38.png"
 import { CiLocationArrow1 } from "react-icons/ci";
 
 const shopifyData = [
   {
    "projectImage": sprojectImg1,
    "tools": "Figma, HTML, CSS, JS, Liquid, Shopify.",
-   "link": "#"
+   "link": "https://colomerandsons.com/"
   },
   {
    "projectImage": sprojectImg2,
    "tools": "Figma, HTML, CSS, JS, Liquid, Shopify.",
-   "link": "#"
+   "link": "https://dressmedown.com/"
   },
   {
    "projectImage": sprojectImg3,
    "tools": "Figma, HTML, CSS, JS, Liquid, Shopify.",
-   "link": "#"
+   "link": "https://www.princessly.com/"
   },
   {
    "projectImage": sprojectImg4,
    "tools": "Figma, HTML, CSS, JS, Liquid, Shopify.",
-   "link": "#"
+   "link": "https://colorfulnatalie.com/"
   },
   {
    "projectImage": sprojectImg5,
    "tools": "Figma, HTML, CSS, JS, Liquid, Shopify.",
-   "link": "#"
-  },
-  {
-   "projectImage": sprojectImg6,
-   "tools": "Figma, HTML, CSS, JS, Liquid, Shopify.",
-   "link": "#"
-  },
-  
+   "link": "https://giganticcandy.com/"
+  }
  
  ]
  
